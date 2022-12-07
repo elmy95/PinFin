@@ -1,0 +1,581 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2106                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       volScalarField;
+    location    "0/fluid";
+    object      thicknessFraction;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 0 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    topWall
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    heater
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    leftWall
+    {
+        type            cyclic;
+    }
+    rightWall
+    {
+        type            cyclic;
+    }
+    inlet
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    outlet
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    Pin.0_2
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_3
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_4
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_5
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_6
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_7
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_8
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_9
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_10
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_11
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_12
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_13
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_14
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_15
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_16
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_17
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_18
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_19
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_20
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_21
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_22
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_23
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_24
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_25
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_26
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_27
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_28
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_29
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_30
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_31
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_32
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_33
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_34
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_35
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_36
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_37
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_38
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_39
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_40
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_41
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_42
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_43
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_44
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_45
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_46
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_47
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_48
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_49
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_50
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_51
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_52
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_53
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_54
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_55
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_56
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_57
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_58
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_59
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_60
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_61
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_62
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_63
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_64
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_65
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_66
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_67
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_68
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_69
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_70
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_71
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_72
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_73
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_74
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_75
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_76
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_77
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_78
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_79
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_80
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_81
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_82
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_83
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_84
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_85
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_86
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_87
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_88
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_89
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_90
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_91
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_92
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_93
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_94
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_95
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_96
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_97
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_98
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_99
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_100
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_101
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_102
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_103
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_104
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_105
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+    pin.0_106
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+}
+
+
+// ************************************************************************* //

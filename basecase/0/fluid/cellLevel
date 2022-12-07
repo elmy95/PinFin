@@ -1,0 +1,472 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2106                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       volScalarField;
+    location    "0/fluid";
+    object      cellLevel;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 0 0 0 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    topWall
+    {
+        type            zeroGradient;
+    }
+    heater
+    {
+        type            zeroGradient;
+    }
+    leftWall
+    {
+        type            cyclic;
+    }
+    rightWall
+    {
+        type            cyclic;
+    }
+    inlet
+    {
+        type            zeroGradient;
+    }
+    outlet
+    {
+        type            zeroGradient;
+    }
+    Pin.0_2
+    {
+        type            zeroGradient;
+    }
+    pin.0_3
+    {
+        type            zeroGradient;
+    }
+    pin.0_4
+    {
+        type            zeroGradient;
+    }
+    pin.0_5
+    {
+        type            zeroGradient;
+    }
+    pin.0_6
+    {
+        type            zeroGradient;
+    }
+    pin.0_7
+    {
+        type            zeroGradient;
+    }
+    pin.0_8
+    {
+        type            zeroGradient;
+    }
+    pin.0_9
+    {
+        type            zeroGradient;
+    }
+    pin.0_10
+    {
+        type            zeroGradient;
+    }
+    pin.0_11
+    {
+        type            zeroGradient;
+    }
+    pin.0_12
+    {
+        type            zeroGradient;
+    }
+    pin.0_13
+    {
+        type            zeroGradient;
+    }
+    pin.0_14
+    {
+        type            zeroGradient;
+    }
+    pin.0_15
+    {
+        type            zeroGradient;
+    }
+    pin.0_16
+    {
+        type            zeroGradient;
+    }
+    pin.0_17
+    {
+        type            zeroGradient;
+    }
+    pin.0_18
+    {
+        type            zeroGradient;
+    }
+    pin.0_19
+    {
+        type            zeroGradient;
+    }
+    pin.0_20
+    {
+        type            zeroGradient;
+    }
+    pin.0_21
+    {
+        type            zeroGradient;
+    }
+    pin.0_22
+    {
+        type            zeroGradient;
+    }
+    pin.0_23
+    {
+        type            zeroGradient;
+    }
+    pin.0_24
+    {
+        type            zeroGradient;
+    }
+    pin.0_25
+    {
+        type            zeroGradient;
+    }
+    pin.0_26
+    {
+        type            zeroGradient;
+    }
+    pin.0_27
+    {
+        type            zeroGradient;
+    }
+    pin.0_28
+    {
+        type            zeroGradient;
+    }
+    pin.0_29
+    {
+        type            zeroGradient;
+    }
+    pin.0_30
+    {
+        type            zeroGradient;
+    }
+    pin.0_31
+    {
+        type            zeroGradient;
+    }
+    pin.0_32
+    {
+        type            zeroGradient;
+    }
+    pin.0_33
+    {
+        type            zeroGradient;
+    }
+    pin.0_34
+    {
+        type            zeroGradient;
+    }
+    pin.0_35
+    {
+        type            zeroGradient;
+    }
+    pin.0_36
+    {
+        type            zeroGradient;
+    }
+    pin.0_37
+    {
+        type            zeroGradient;
+    }
+    pin.0_38
+    {
+        type            zeroGradient;
+    }
+    pin.0_39
+    {
+        type            zeroGradient;
+    }
+    pin.0_40
+    {
+        type            zeroGradient;
+    }
+    pin.0_41
+    {
+        type            zeroGradient;
+    }
+    pin.0_42
+    {
+        type            zeroGradient;
+    }
+    pin.0_43
+    {
+        type            zeroGradient;
+    }
+    pin.0_44
+    {
+        type            zeroGradient;
+    }
+    pin.0_45
+    {
+        type            zeroGradient;
+    }
+    pin.0_46
+    {
+        type            zeroGradient;
+    }
+    pin.0_47
+    {
+        type            zeroGradient;
+    }
+    pin.0_48
+    {
+        type            zeroGradient;
+    }
+    pin.0_49
+    {
+        type            zeroGradient;
+    }
+    pin.0_50
+    {
+        type            zeroGradient;
+    }
+    pin.0_51
+    {
+        type            zeroGradient;
+    }
+    pin.0_52
+    {
+        type            zeroGradient;
+    }
+    pin.0_53
+    {
+        type            zeroGradient;
+    }
+    pin.0_54
+    {
+        type            zeroGradient;
+    }
+    pin.0_55
+    {
+        type            zeroGradient;
+    }
+    pin.0_56
+    {
+        type            zeroGradient;
+    }
+    pin.0_57
+    {
+        type            zeroGradient;
+    }
+    pin.0_58
+    {
+        type            zeroGradient;
+    }
+    pin.0_59
+    {
+        type            zeroGradient;
+    }
+    pin.0_60
+    {
+        type            zeroGradient;
+    }
+    pin.0_61
+    {
+        type            zeroGradient;
+    }
+    pin.0_62
+    {
+        type            zeroGradient;
+    }
+    pin.0_63
+    {
+        type            zeroGradient;
+    }
+    pin.0_64
+    {
+        type            zeroGradient;
+    }
+    pin.0_65
+    {
+        type            zeroGradient;
+    }
+    pin.0_66
+    {
+        type            zeroGradient;
+    }
+    pin.0_67
+    {
+        type            zeroGradient;
+    }
+    pin.0_68
+    {
+        type            zeroGradient;
+    }
+    pin.0_69
+    {
+        type            zeroGradient;
+    }
+    pin.0_70
+    {
+        type            zeroGradient;
+    }
+    pin.0_71
+    {
+        type            zeroGradient;
+    }
+    pin.0_72
+    {
+        type            zeroGradient;
+    }
+    pin.0_73
+    {
+        type            zeroGradient;
+    }
+    pin.0_74
+    {
+        type            zeroGradient;
+    }
+    pin.0_75
+    {
+        type            zeroGradient;
+    }
+    pin.0_76
+    {
+        type            zeroGradient;
+    }
+    pin.0_77
+    {
+        type            zeroGradient;
+    }
+    pin.0_78
+    {
+        type            zeroGradient;
+    }
+    pin.0_79
+    {
+        type            zeroGradient;
+    }
+    pin.0_80
+    {
+        type            zeroGradient;
+    }
+    pin.0_81
+    {
+        type            zeroGradient;
+    }
+    pin.0_82
+    {
+        type            zeroGradient;
+    }
+    pin.0_83
+    {
+        type            zeroGradient;
+    }
+    pin.0_84
+    {
+        type            zeroGradient;
+    }
+    pin.0_85
+    {
+        type            zeroGradient;
+    }
+    pin.0_86
+    {
+        type            zeroGradient;
+    }
+    pin.0_87
+    {
+        type            zeroGradient;
+    }
+    pin.0_88
+    {
+        type            zeroGradient;
+    }
+    pin.0_89
+    {
+        type            zeroGradient;
+    }
+    pin.0_90
+    {
+        type            zeroGradient;
+    }
+    pin.0_91
+    {
+        type            zeroGradient;
+    }
+    pin.0_92
+    {
+        type            zeroGradient;
+    }
+    pin.0_93
+    {
+        type            zeroGradient;
+    }
+    pin.0_94
+    {
+        type            zeroGradient;
+    }
+    pin.0_95
+    {
+        type            zeroGradient;
+    }
+    pin.0_96
+    {
+        type            zeroGradient;
+    }
+    pin.0_97
+    {
+        type            zeroGradient;
+    }
+    pin.0_98
+    {
+        type            zeroGradient;
+    }
+    pin.0_99
+    {
+        type            zeroGradient;
+    }
+    pin.0_100
+    {
+        type            zeroGradient;
+    }
+    pin.0_101
+    {
+        type            zeroGradient;
+    }
+    pin.0_102
+    {
+        type            zeroGradient;
+    }
+    pin.0_103
+    {
+        type            zeroGradient;
+    }
+    pin.0_104
+    {
+        type            zeroGradient;
+    }
+    pin.0_105
+    {
+        type            zeroGradient;
+    }
+    pin.0_106
+    {
+        type            zeroGradient;
+    }
+}
+
+
+// ************************************************************************* //
